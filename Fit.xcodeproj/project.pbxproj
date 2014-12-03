@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F66289C1A2F5C6D000B28A7 /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F66289B1A2F5C6D000B28A7 /* NewClass.m */; };
 		1FB2E0041A2F550B0093D7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB2E0031A2F550B0093D7F3 /* Foundation.framework */; };
 		1FB2E0061A2F550B0093D7F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB2E0051A2F550B0093D7F3 /* CoreGraphics.framework */; };
 		1FB2E0081A2F550B0093D7F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB2E0071A2F550B0093D7F3 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F66289A1A2F5C6D000B28A7 /* NewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
+		1F66289B1A2F5C6D000B28A7 /* NewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
 		1FB2E0001A2F550B0093D7F3 /* Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB2E0031A2F550B0093D7F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FB2E0051A2F550B0093D7F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				1FB2E0151A2F550B0093D7F3 /* Main.storyboard */,
 				1FB2E0181A2F550B0093D7F3 /* ViewController.h */,
 				1FB2E0191A2F550C0093D7F3 /* ViewController.m */,
+				1F66289A1A2F5C6D000B28A7 /* NewClass.h */,
+				1F66289B1A2F5C6D000B28A7 /* NewClass.m */,
 				1FB2E01B1A2F550C0093D7F3 /* Images.xcassets */,
 				1FB2E00A1A2F550B0093D7F3 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FB2E01A1A2F550C0093D7F3 /* ViewController.m in Sources */,
+				1F66289C1A2F5C6D000B28A7 /* NewClass.m in Sources */,
 				1FB2E0141A2F550B0093D7F3 /* AppDelegate.m in Sources */,
 				1FB2E0101A2F550B0093D7F3 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				1FB2E0341A2F550C0093D7F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FB2E0351A2F550C0093D7F3 /* Build configuration list for PBXNativeTarget "FitTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				1FB2E0371A2F550C0093D7F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
